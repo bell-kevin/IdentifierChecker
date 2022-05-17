@@ -1,23 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package identifierchecker;
 
 import java.util.Scanner;
 
-/**
- *
- * @author 4800590195
- */
 public class IdentifierChecker {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner computerKeyboardInput = new Scanner(System.in);
         String line; //user entry
         char ch;
