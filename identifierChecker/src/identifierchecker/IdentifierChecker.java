@@ -9,7 +9,7 @@ public class IdentifierChecker {
         String line; //user entry
         char ch;
         boolean legal = true; // Is entered line a legal identifier?
-        System.out.println("This program checks the validity of a" + " proposed Java identifier.");
+        System.out.println("This program checks the validity of a proposed Java identifier.");
         System.out.print("Enter a proposed identifier: ");
         line = computerKeyboardInput.nextLine();
         ch = line.charAt(0);
